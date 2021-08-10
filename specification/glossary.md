@@ -179,6 +179,10 @@ object, in the [Events](trace/api.md#add-events) list.
 
 `Log Records` that are not embedded inside a `Span` and are recorded elsewhere.
 
+### Standalone Event
+
+`Event Records` that are not embedded inside a `Span` and are recorded elsewhere.
+
 ### Log Attributes
 
 Key/value pairs contained in a `Log Record`.

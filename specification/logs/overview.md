@@ -173,29 +173,6 @@ These 3 correlations can be the foundation of powerful navigational, filtering,
 querying and analytical capabilities. OpenTelemetry aims to record and collects
 logs in a manner that enables such correlations.
 
-## Events and Logs
-
-Wikipedia’s [definition of log file](https://en.wikipedia.org/wiki/Log_file):
-
->In computing, a log file is a file that records either events that occur in an
->operating system or other software runs.
-
-The notion of a log record used throughout OpenTelemetry is aligned with
-Wikipedia’s definition. We claim that in the observability realm there is no
-important distinction between log records and recorded events from a data
-modeling perspective.
-
-From OpenTelemetry's perspective Log Records and Events are different names for
-the same concept.
-
-Some products may want to make a distinction between Events collected from
-certain sources and Logs collected from other sources. OpenTelemetry believes
-that there is nothing inherently different between log records and events from
-data modeling perspective, the differences are in the sources themselves. Thus
-where it matters the products should make that distinction based on the source
-of the data rather than attempt to arbitrarily categorize the data as events vs
-logs.
-
 ## Legacy and Modern Log Sources
 
 It is important to distinguish several sorts of legacy and modern log sources.
